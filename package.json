@@ -1,0 +1,50 @@
+{
+  "name": "ppserver",
+  "version": "1.0.0",
+  "description": "peoples post api server",
+  "private": true,
+  "scripts": {
+    "test": "test",
+    "debug": "nodemon ./app/index.js",
+    "start": "node ./app/index.js"
+  },
+  "author": "Abdul Bari",
+  "license": "ISC",
+  "engines": {
+    "node": "10.13.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.888.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "csvtojson": "^2.0.10",
+    "debug": "^4.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-mailer": "^0.3.1",
+    "express-promise": "^0.4.0",
+    "fcm-push": "^1.1.3",
+    "fs": "0.0.1-security",
+    "geo-distance": "^0.2.0",
+    "geolib": "^3.2.0",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.21",
+    "logger": "0.0.1",
+    "md5": "^2.2.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.15",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "q": "^1.5.1",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.2",
+    "stripe": "^6.20.1",
+    "twilio": "^3.60.0",
+    "validator": "^13.6.0"
+  }
+}
